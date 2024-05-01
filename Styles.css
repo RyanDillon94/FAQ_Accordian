@@ -1,0 +1,24 @@
+
+
+
+  /* Footer items */
+.attribution {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+
+.attribution a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: #ff9c6c;
+}
