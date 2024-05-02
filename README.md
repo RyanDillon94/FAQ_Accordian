@@ -37,6 +37,7 @@ tbc
 
 - HTML built on mobile, with CSS and JS built on a laptop.
 - Started with the HTML and built the browser view first with CSS. Hid all the inactive <p> tags to work on alignment and struggled a little with the plus/minus icons.
+- Got caught out with a caching that I wasted around 45 minutes trying to fix! 
 - Once everything was good with the styling I began with the JS.
 - Changing the class was easy enough as something i have done recently. Ensuring there was only one 'active' class was a little tricky.
 - The transition was messy and clunky, spent waaayyyy too long on this and in the end gave up with a clunky css transition.
