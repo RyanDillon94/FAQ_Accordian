@@ -51,10 +51,6 @@ h4 {
   align-items: stretch;
 }
 
-h4:hover {
-  color: #BC6EDC;
-}
-
 p {
   color: var(--Grayish-purple);
   font-weight: 400;
