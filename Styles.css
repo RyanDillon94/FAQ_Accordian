@@ -62,8 +62,7 @@ p {
 }
 .active p {
   max-height: 300px;
-  transition: max-height 2s ease-in;
-  transition: max-height 2s ease-out;
+  transition: max-height 1s ease-in;
 }
 
 header {
