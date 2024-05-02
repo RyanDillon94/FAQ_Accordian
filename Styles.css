@@ -1,12 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+--White: hsl(0, 0%, 100%);
+--Light-pink: hsl(275, 100%, 97%);
+--Grayish-purple: hsl(292, 16%, 49%);
+--Dark-purple: hsl(292, 42%, 14%);
+}
 
 * {
   box-sizing: border-box;
   margin: 0;
 }
-
 body {
-  background-color: red;
+  background-image: url('/Assets/background-pattern-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  background-color: var(--Light-pink);
+  font-family: "Work sans", Comic Sans MS;
+  font-size: 14px;
+}
+
+.container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.outerBox{
+  width: 80%;
+  height: auto;
+  background-color: var(--White);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+h4 {
+  font-weight: 700;
+  color: var(--Dark-purple);
+  font-size: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 80%;
+  margin-top: 20px;
+}
+
+p {
+  color: var(--Grayish-purple);
+  font-weight: 400;
+  display: none;
+  font-size: 16px;
+}
+.active p {
+  display: inline-block;
+}
+header {
+  padding-top:10px;
+  padding-bottom:20px;
+  font-size: 20px;
+}
+
+.FAQs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.active span {
+  content: url(/Assets/icon-minus.svg);
+  width: 30px;
+  height: auto;
+}
+.selector {
+  content: url(/Assets/icon-plus.svg);
+  width: 30px;
+  height: auto;
+  float: right;
+  position: absolute;
+  left: 75%;
+}
+.starIcon {
+  content: url('/Assets/icon-star.svg');
+  display: inline-block;
+  width: 30px;
+  height: auto;
+  margin-right: 25px;
+}
+hr {
+  width: 100%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
   /* Footer items */
 .attribution {
@@ -29,3 +112,12 @@ body {
 .attribution a:hover {
   color: #ff9c6c;
 }
+
+
+/* .outerBox{
+  width: 40%;
+  height: 65%;
+  background-color: var(--White);
+  border-radius: 20px;
+}
+ */
