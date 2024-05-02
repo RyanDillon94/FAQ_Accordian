@@ -68,7 +68,7 @@ p {
 }
 .active p {
   max-height: 300px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 header {
