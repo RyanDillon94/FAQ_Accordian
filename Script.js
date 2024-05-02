@@ -1,21 +1,3 @@
-// // Variables from DOM
-// const FAQs = document.getElementsByClassName("FAQs");
-// for (let i = 0; i < FAQs.length; i++) {
-//   FAQs[i].addEventListener("click", changeClass);
-// }
-
-// function changeClass() {
-//   this.classList.toggle("active");
-
-//   let actives = document.getElementsByClassName("active");
-//   for (let ii = 0; ii < actives.length; ii++) {
-//     if (actives[ii] !== this) {
-//       actives[ii].classList.remove("active");
-//     }
-//   }
-// }
-
-
 document.addEventListener('DOMContentLoaded', function() {
   const faqs = document.querySelectorAll('.FAQs');
 
@@ -35,6 +17,14 @@ document.addEventListener('DOMContentLoaded', function() {
         // Set max-height back to 0 to collapse the answer
         answer.style.maxHeight = 0;
       }
+
+      // Remove the 'active' class from other FAQ elements
+      faqs.forEach(function(otherFaq) {
+        if (otherFaq !== faq) {
+          otherFaq.classList.remove('active');
+          otherFaq.querySelector('p').style.maxHeight = 0;
+        }
+      });
     });
   });
 });
