@@ -64,11 +64,11 @@ p {
   font-size: 1rem;
   margin-right: 0%;
   width: 90%;
-  transition: 1s;
+  transition: max-height .3s ease-out;
 }
 .active p {
   max-height: 300px;
-  transition: 0.3s;
+  transition: max-height .5s ease-in;
 }
 
 header {
