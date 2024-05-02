@@ -59,7 +59,7 @@ p {
   font-size: 1rem;
   margin-right: 0%;
   width: 90%;
-  transition: max-height 0s ease-out;
+  transition: max-height .1s ease-out;
 }
 .active p {
   max-height: 300px;
