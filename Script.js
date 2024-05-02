@@ -13,5 +13,5 @@ function changeClass() {
       actives[ii].classList.remove("active");
     }
   }
-  actives.style.transition = "all 2s";
+  document.getElementById("FAQs").style.transition = "all 2s";
 }
