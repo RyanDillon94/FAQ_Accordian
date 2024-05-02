@@ -53,6 +53,7 @@ h4 {
 
 h4:hover {
   color: #BC6EDC;
+  cursor: pointer;
 }
 
 p {
