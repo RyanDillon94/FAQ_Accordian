@@ -59,16 +59,16 @@ h4:hover {
 p {
   color: var(--Grayish-purple);
   font-weight: 400;
-  max-height: 300px; /* Set default max-height to the maximum height */
+  max-height: 0;
   overflow: hidden;
   font-size: 1rem;
   margin-right: 0%;
   width: 90%;
-  transition: max-height 0.5s ease-out; /* Transition from 300px to 0 smoothly */
+  transition: max-height .3s ease-out;
 }
-
 .active p {
-  max-height: 0; /* When active, transition to max-height: 0 */
+  max-height: 300px;
+  transition: max-height .5s ease-in;
 }
 
 
