@@ -64,7 +64,7 @@ p {
   margin-right: 0%;
   width: 90%;
   max-height: 0; /* Set the initial max-height to 0 */
-  
+  transition: max-height .5s ease-in-out; /* Use ease-in-out for smoother transition */
 }
 
 .active p {
