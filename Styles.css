@@ -59,16 +59,16 @@ h4:hover {
 p {
   color: var(--Grayish-purple);
   font-weight: 400;
-  max-height: 0;
   overflow: hidden;
   font-size: 1rem;
   margin-right: 0%;
   width: 90%;
-  transition: max-height .3s ease-out;
+  max-height: 0; /* Set the initial max-height to 0 */
+  transition: max-height 0.5s ease-in-out; /* Use ease-in-out for smoother transition */
 }
+
 .active p {
-  max-height: 300px;
-  transition: max-height .5s ease-in;
+  max-height: 300px; /* Set the max-height to the desired expanded height */
 }
 
 
