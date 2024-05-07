@@ -1,6 +1,6 @@
 # Frontend Mentor - FAQ accordion solution
 
-This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -18,6 +18,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+
 - Third Front-End Mentor challenge and the first one that included JavaScript. Enjoyed the extra complexity!
 
 ### The challenge
@@ -31,13 +32,14 @@ Users should be able to:
 
 ### Screenshot
 
-tbc
+![](./BrowserScreenshot.jpg)
+![](./MobileScreenshot.jpg/)
 
 ## My process
 
 - HTML built on mobile, with CSS and JS built on a laptop.
 - Started with the HTML and built the browser view first with CSS. Hid all the inactive <p> tags to work on alignment and struggled a little with the plus/minus icons.
-- Got caught out with a caching that I wasted around 45 minutes trying to fix! 
+- Got caught out with a caching that I wasted around 45 minutes trying to fix!
 - Once everything was good with the styling I began with the JS.
 - Changing the class was easy enough as something i have done recently. Ensuring there was only one 'active' class was a little tricky.
 - The transition was messy and clunky, spent waaayyyy too long on this and in the end gave up with a clunky css transition.
@@ -52,6 +54,7 @@ tbc
 - JavaScript
 
 ### What I learned
+
 - Used Chrome dev tools a lot for this one, very useful and dont think i would have managed the styling without it. Very useful to play around with the flex properties.
 
 ### Continued development
@@ -59,4 +62,5 @@ tbc
 - Need to continue with my JavaScript development. I knew the basics but no idea when it came to the transition.
 
 ## Author
+
 - Ryan Dillon
